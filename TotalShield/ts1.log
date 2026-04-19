@@ -1,0 +1,82 @@
+Script started on 2025-06-28 20:55:33+05:30 [TERM="screen.xterm-256color" TTY="/dev/pts/59" COLUMNS="162" LINES="27"]
+[?2004h[01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ conda activate sanenv
+[?2004l[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ conda activate sanenvexit[Kpython main_totalsecure.py[5Pconda activate sanenvpython main_totalsecure.py
+[?2004lLoading checkpoint shards:   0%|                                                                                                            | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|██████████████████████████████████████████████████                                                  | 1/2 [00:01<00:01,  1.21s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.19it/s]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.12it/s]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+
+Final Metrics:
+ExactMatch: 0.0000
+SubstringMatch: 0.0000
+EditDistance: 0.5869
+SemanticSimilarity: 0.3047
+[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ python main_totalsecure.py
+[?2004lLoading checkpoint shards:   0%|                                                                                                            | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|██████████████████████████████████████████████████                                                  | 1/2 [00:01<00:01,  1.36s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.03it/s]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+
+Final Metrics:
+ExactMatch: 0.0000
+SubstringMatch: 0.0000
+EditDistance: 0.5864
+SemanticSimilarity: 0.3047
+[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ python main_totalsecure.py
+[?2004lLoading checkpoint shards:   0%|                                                                                                            | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|██████████████████████████████████████████████████                                                  | 1/2 [00:01<00:01,  1.29s/it]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.16it/s]Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:01<00:00,  1.08it/s]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+
+Final Metrics:
+ExactMatch: 0.0000
+SubstringMatch: 0.0000
+EditDistance: 0.5864
+SemanticSimilarity: 0.3040
+[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ [K(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ p
+ython main_totalsecure.py
+[?2004lLoading checkpoint shards:   0%| | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|▌| 1/2 [00:01<00:01,  1Loading checkpoint shards: 100%|█| 2/2 [00:02<00:00,  1Loading checkpoint shards: 100%|█| 2/2 [00:02<00:00,  1
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+
+Final Metrics:
+ExactMatch: 0.0000
+SubstringMatch: 0.0000
+EditDistance: 0.8916
+SemanticSimilarity: 0.0000
+[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANgho
+sh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ [K[A(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ 
+[?2004l[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/TotalShield[00m$ exit
+[?2004lexit
+
+Script done on 2025-06-28 22:36:30+05:30 [COMMAND_EXIT_CODE="0"]

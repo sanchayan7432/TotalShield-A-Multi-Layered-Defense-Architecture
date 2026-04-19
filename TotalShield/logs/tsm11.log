@@ -1,0 +1,64 @@
+Script started on 2025-06-30 13:19:28+05:30 [TERM="screen.xterm-256color" TTY="/dev/pts/59" COLUMNS="162" LINES="24"]
+[?2004h[01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/SanchayanAttack_copy01[00m$ conda activate sanenv
+[?2004l[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/SanchayanAttack_copy01[00m$ python sample.py Financial llama None '\n----------\n----------\nborsconst reconstruction Liu LSTMpaste according Below sentenceWO:
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/SanchayanAttack_copy01[00m$ python sample.py Financial llama None '\n----------\n----------\nborsconst reconstruction Liu LSTMpaste according Below sentenceWO:'
+[?2004l2025-06-30 13:20:21.897106: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-30 13:20:21.931387: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-06-30 13:20:21.931428: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-06-30 13:20:21.932716: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-06-30 13:20:21.938710: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-06-30 13:20:22.593595: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+config.json:   0%|                                                                                                                      | 0.00/609 [00:00<?, ?B/s]config.json: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████| 609/609 [00:00<00:00, 4.64MB/s]
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+model.safetensors.index.json:   0%|                                                                                                   | 0.00/26.8k [00:00<?, ?B/s]model.safetensors.index.json: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 26.8k/26.8k [00:00<00:00, 3.87MB/s]
+Downloading shards:   0%|                                                                                                                   | 0/2 [00:00<?, ?it/s]
+model-00001-of-00002.safetensors:   0%|                                                                                               | 0.00/9.98G [00:00<?, ?B/s][A
+model-00001-of-00002.safetensors:   0%|                                                                                  | 47.7k/9.98G [00:02<131:13:33, 21.1kB/s][A
+model-00001-of-00002.safetensors:   0%|                                                                                      | 570k/9.98G [00:02<8:35:09, 323kB/s][A
+model-00001-of-00002.safetensors:   1%|▌                                                                                     | 64.0M/9.98G [00:03<06:33, 25.2MB/s][A
+model-00001-of-00002.safetensors:   1%|▋                                                                                     | 78.7M/9.98G [00:04<07:02, 23.4MB/s][A
+model-00001-of-00002.safetensors:   1%|▋                                                                                     | 81.1M/9.98G [00:05<08:56, 18.4MB/s][A
+model-00001-of-00002.safetensors:   1%|▋                                                                                     | 83.1M/9.98G [00:05<09:35, 17.2MB/s][A
+model-00001-of-00002.safetensors:   1%|▊                                                                                     | 87.3M/9.98G [00:05<08:42, 18.9MB/s][A^CCancellation requested; stopping current tasks.
+Downloading shards:   0%|                                                                                                                   | 0/2 [00:06<?, ?it/s]
+Traceback (most recent call last):
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 627, in xet_get
+    download_files(
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/SANCHAYANghosh01/SanchayanAttack_copy01/sample.py", line 32, in <module>
+    sampler = Sampler(target_model=model, template=testset.template, defense=defense)
+  File "/data1/SANCHAYANghosh01/SanchayanAttack_copy01/Sampler.py", line 24, in __init__
+    self.model, self.tokenizer = modelFactory.get_model(target_model)
+  File "/data1/SANCHAYANghosh01/SanchayanAttack_copy01/ModelFactory.py", line 260, in get_model
+    model = AutoModelForCausalLM.from_pretrained(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3769, in from_pretrained
+    resolved_archive_file, sharded_metadata = get_checkpoint_shard_files(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/utils/hub.py", line 1098, in get_checkpoint_shard_files
+    cached_filename = cached_file(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/transformers/utils/hub.py", line 403, in cached_file
+    resolved_file = hf_hub_download(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1008, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1161, in _hf_hub_download_to_cache_dir
+    _download_to_tmp_and_move(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 1710, in _download_to_tmp_and_move
+    xet_get(
+  File "/data1/kshitij/miniconda3/envs/sanenv/lib/python3.10/site-packages/huggingface_hub/file_download.py", line 627, in xet_get
+    download_files(
+KeyboardInterrupt
+model-00001-of-00002.safetensors:   1%|▊                                                                                     | 87.3M/9.98G [00:06<11:31, 14.3MB/s]
+^C[?2004h(sanenv) [01;32mmist_lab@user-SSI200FOA-54[00m:[01;34m/data1/SANCHAYANghosh01/SanchayanAttack_copy01[00m$ python sample.py Financial llama None '\n----------\n----------\nborsconst reconstruction Liu LSTMpaste according Below sentenceWO:'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit
+[?2004lexit
+
+Script done on 2025-06-30 13:21:46+05:30 [COMMAND_EXIT_CODE="1"]
