@@ -1,0 +1,43 @@
+# =========================
+# Core (LLM stack)
+# =========================
+torch
+transformers
+accelerate
+datasets
+peft
+huggingface_hub
+
+# =========================
+# Evaluation / metrics (needed by PLeak)
+# =========================
+torchmetrics
+evaluate
+torcheval
+
+# =========================
+# Scientific stack
+# =========================
+numpy
+scipy
+pandas
+scikit-learn
+tqdm
+
+# =========================
+# Tokenizers / text
+# =========================
+sentencepiece
+nltk
+einops
+
+# =========================
+# Config & logging
+# =========================
+pyyaml
+jsonlines
+
+# =========================
+# Visualization
+# =========================
+matplotlib
