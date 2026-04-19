@@ -59,7 +59,7 @@ TotalShield/
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/sanchayan7432/TotalShield.git
 cd TotalShield
 ```
 
@@ -140,7 +140,7 @@ Semantic Similarity (SS) → TF-IDF cosine similarity
 
 Step 1: Clone PLeak
 ```
-git clone https://github.com/your-pleak-repo
+git clone https://github.com/sanchayan7432/TotalShield.git
 cd pleak
 ```
 
