@@ -253,6 +253,9 @@ methods,” 2024. [Online]. Available: https://arxiv.org/abs/2404.05159
 Sanchayan Ghosh 
 Mail me at - sanchayan.ghosh2022@gmail.com
 
+The research paper is cited on https://explore.openaire.eu/search/result?pid=10.5281%2Fzenodo.19750397
+and published on https://zenodo.org/records/19750397
+
 📜 License
 
 MIT License. For research and academic use only. This project belongs to only the owner, don't intentionally use it in commercial purpose.
